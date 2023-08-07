@@ -2,11 +2,11 @@
 # using fakeroot version 1.32.1
 pkgname = core-base
 pkgbase = core-base
-pkgver = 1.4-1
+pkgver = 1.7-1
 pkgdesc = base script for core
 url = 
-builddate = 1690911249
+builddate = 1691421779
 packager = Unknown Packager
-size = 2312
+size = 3212
 arch = any
 license = GPL

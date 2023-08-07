@@ -3,7 +3,7 @@
 
 # Lista di AUR helper da controllare (in ordine di preferenza)
 aur_helpers=(yay paru aura pikaur)
-pikaur=$(pikaur -Qua | tail -n +4)
+
 
 
 for helper in "${aur_helpers[@]}"; do
@@ -14,15 +14,15 @@ for helper in "${aur_helpers[@]}"; do
 done
 
 if [ $installed_helper = "yay" ]; then
-   yay -Qua
+   yay -Syu
 elif [ $installed_helper = "paru" ]; then
-   paru -Qua
+   paru -Syu
 elif [ $installed_helper = "aura" ]; then
-   aura -Qua
+   sudo aura -Syu
 elif [ $installed_helper = "pikaur" ]; then
-   $pikaur
+   pikaur -Syu
 else
   notify-send "AUR helper missing in system for Arch Linux Updates Indicator!"
 fi
 
-checkupdates
+
