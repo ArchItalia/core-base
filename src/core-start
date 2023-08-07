@@ -12,6 +12,7 @@ ex3=$(gnome-extensions enable appindicatorsupport@rgcjonas.gmail.com)
 ex4=$(gnome-extensions enable arch-update@RaphaelRochet)
 ex5=$(gnome-extensions enable lockkeys@vaina.lt)
 ex6=$(gnome-extensions enable nightthemeswitcher@romainvigier.fr)
+ex7=$(gnome-extensions enable dash-to-dock@micxgx.gmail.com)
 
 shell=$(gsettings set org.gnome.shell.extensions.user-theme name "Core")
 legacx=$(gsettings set org.gnome.desktop.interface gtk-theme "Core")
@@ -38,6 +39,7 @@ start(){
    $ex4
    $ex5
    $ex6
+   $ex7
 
    $shell
    $legacx

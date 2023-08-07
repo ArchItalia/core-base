@@ -1,7 +1,7 @@
 # Maintainer: Jonathan Sanfilippo  <jonalinux dot uk at gmail dot com>
 
 pkgname=core-base
-pkgver=1.7
+pkgver=1.8
 pkgrel=1
 pkgdesc="base script for core"
 arch=('any')
