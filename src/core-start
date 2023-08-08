@@ -58,7 +58,7 @@ start(){
    $copykb
    $kl
    
-   rm -rf $HOME/.config/autostart/startx.desktop
+   rm -rf $HOME/.config/autostart/{startx.desktop,welcome.desktop}
 }
 
 start
